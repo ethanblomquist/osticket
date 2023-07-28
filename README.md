@@ -17,16 +17,6 @@ This tutorial is a complete guide to installing, configuring and implementing th
 
 <h1>Part 1 -Prerequisites and Installation</h1>
 
-<h2>List of Prerequisites</h2>
-
-- Create Virtual Machine in Azure
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
-<h2>Installation Steps</h2>
-
 <h3>Step 1: Resource Groups</h3>
 <p>
 We will first need to create a Virtual Machine. To do this we will be using a a cloud computing platform called Microsoft Azure: https://portal.azure.com/ . After logging in to your Microsoft Azure account, create a Resource Group. You can find this using the search bar at the top of the page. We will name this Resource Grop "osTicket". No need to add any tags at this time, select "next" until you are prompted to create the Resource Group.
@@ -45,7 +35,23 @@ Using the same search bar as before, find and select the "Virtual Machines" serv
 </p>
 <br />
 
+<h3>Step 3:Connecting to the VM via Remote Desktop COnnection</h3>
+<p>
+Remote Desktop Connection is a program found on Windows that allows us to remotely access the VM we just created. First find Remote Desktop Connection via the Windows search bar, or type "MSTSC" into the command prompt. Next, enter the Public IP address for the VM. This can be found on the "Virtual machines" page to the far right of the screen. You will be asked to enter the credentials you created for the VM.
+</p>
+<p>
+<img src=https://i.imgur.com/N51xQFo.png/>
+</p>
+<br />
 
+<h3>Step 3:Connecting to the VM via Remote Desktop COnnection</h3>
+<p>
+Remote Desktop Connection is a program found on Windows that allows us to remotely access the VM we just created. First find Remote Desktop Connection via the Windows search bar, or type "MSTSC" into the command prompt. Next, enter the Public IP address for the VM. This can be found on the "Virtual machines" page to the far right of the screen. You will be asked to enter the credentials you created for the VM.
+</p>
+<p>
+<img src=https://i.imgur.com/N51xQFo.png/>
+</p>
+<br />
 
 
 <h1>Part 2 - Post-Install Configuration</h1>

@@ -5,17 +5,17 @@
 <h1>osTicket: From Installation to Ticket Resolution</h1>
 This tutorial is a complete guide to installing, configuring and implementing the open-source help desk ticketing system osTicket. First we will cover the prerequisites and installation process, then the configuration required post-install. Finally we will learn the lifecycle of a supoort ticket from intake all the way through to resolution.<br/>
 
-<h2>Environments and Technologies Used</h2>
+<h3>Environments and Technologies Used</h3>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
 
-<h2>Operating System</h2>
+<h3>Operating System</h3>
 
 - Windows 10</b> (21H2)
 
-<h1>Part 1 -Prerequisites and Installation</h1>
+<h2>Part 1 -Prerequisites and Installation</h2>
 
 <h3>Step 1: Resource Groups</h3>
 <p>
@@ -35,21 +35,21 @@ Using the same search bar as before, find and select the "Virtual Machines" serv
 </p>
 <br />
 
-<h3>Step 3:Connecting to the VM via Remote Desktop COnnection</h3>
+<h3>Step 3:Connecting to the VM via Remote Desktop Connection</h3>
 <p>
 Remote Desktop Connection is a program found on Windows that allows us to remotely access the VM we just created. First find Remote Desktop Connection via the Windows search bar, or type "MSTSC" into the command prompt. Next, enter the Public IP address for the VM. This can be found on the "Virtual machines" page to the far right of the screen. You will be asked to enter the credentials you created for the VM.
 </p>
 <p>
-<img src=https://i.imgur.com/N51xQFo.png/>
+<img src=https://i.imgur.com/vRfL9WX.png/>
 </p>
 <br />
 
-<h3>Step 3:Connecting to the VM via Remote Desktop COnnection</h3>
+<h3>Step 4: Configuring Windows and Installing Prerequisite Software</h3>
 <p>
 Remote Desktop Connection is a program found on Windows that allows us to remotely access the VM we just created. First find Remote Desktop Connection via the Windows search bar, or type "MSTSC" into the command prompt. Next, enter the Public IP address for the VM. This can be found on the "Virtual machines" page to the far right of the screen. You will be asked to enter the credentials you created for the VM.
 </p>
 <p>
-<img src=https://i.imgur.com/N51xQFo.png/>
+<img src=https://i.imgur.com/vRfL9WX.png/>
 </p>
 <br />
 

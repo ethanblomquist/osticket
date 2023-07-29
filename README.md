@@ -83,10 +83,14 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 <img src=https://i.imgur.com/cRHq6wA.png/>
 </p>
 <p>
-7. Extract osTicket v1.15.8 -> Copy "upload" folder to c:\inetpub\wwwroot -> Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+7. Extract osTicket v1.15.8 -> Copy "upload" folder to c:\inetpub\wwwroot -> Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” -> Once again return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 </p>
+<p>
+Once again return to the main paige of IIS, then select "Restart" under the "Actions" tab. -> Under the "Connections" tab navigate to Sites -> Default -> left click osTicket folder -> select “Browse *:80 (http)” on the right 
+</p>
+<p>
 
-
+</p>
 
 
 

@@ -59,14 +59,37 @@ Next, create the directory C:\PHP
 </p>
 <p>
 Now we need to install some software. You can find a file containing all the software you will need at this link: https://drive.google.com/drive/folders/1a2pqyzWvCMLdfVghsQCYTd9C_zm37-ro?usp=drive_link . Using a browser on the VM, download all the files. Then unzip them. Install the files in the following order: 
+<p>
 1. PHPManagerForIIS_V1.5.0
-2. rewrite_amd64_en-US.
-3. Extract the contents of php-7.3.8-nts-Win32-VC15-x86.zip to C:\PHP
-4. 
 </p>
 <p>
-<img src=/>
+2. rewrite_amd64_en-US
 </p>
+<p>
+3. Extract the contents of php-7.3.8-nts-Win32-VC15-x86.zip to C:\PHP
+</p>
+<p>
+4. Install VC_redist.x86
+</p>
+<p>
+5. Install mysql-5.5.62-win32 -> Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration -> Password1
+</p>
+<p>
+6. Start IIS by entering InetMgr.exe into the Run utility -> Select PHP manager -> Select "Register new PHP version" -> Navigate to C:\PHP\php-cgi.exe
+</p>
+Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
+</p>
+<p>
+<img src=https://i.imgur.com/cRHq6wA.png/>
+</p>
+<p>
+7. Extract osTicket v1.15.8 -> Copy "upload" folder to c:\inetpub\wwwroot -> Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+</p>
+
+
+
+
+
 <br />
 
 <h3>Step 5: </h3>

@@ -46,13 +46,23 @@ Remote Desktop Connection is a program found on Windows that allows us to remote
 
 <h3>Step 4: Configuring Windows and Installing Prerequisite Software</h3>
 <p>
-We will first need to install Internet Information Services. Navigate to Control Panel -> Programs -> "Turn Windows features on or off" -> World Wide Web Services -> Application Development Features. Enable CGI and Common HTTP Features. Under Internet Information Services -> Web Management Tools enable the IIS Management Console.
+We will first need to install Internet Information Services. Navigate to Control Panel -> Programs -> "Turn Windows features on or off" -> World Wide Web Services -> Application Development Features. Enable CGI and Common HTTP Features. Under Internet Information Services -> Web Management Tools enable the IIS Management Console. After selecting "ok" the features will install.
 </p>
 <p>
 <img src=https://i.imgur.com/jilgY4g.png/>
 </p>
 <p>
-You can find a file containing all the software you will need at this link: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 . Using a browser on the VM, download all the files. Then unzip them.
+Next, create the directory C:\PHP
+</p>
+<p>
+<img src=https://i.imgur.com/JJLB7EA.png/>
+</p>
+<p>
+Now we need to install some software. You can find a file containing all the software you will need at this link: https://drive.google.com/drive/folders/1a2pqyzWvCMLdfVghsQCYTd9C_zm37-ro?usp=drive_link . Using a browser on the VM, download all the files. Then unzip them. Install the files in the following order: 
+1. PHPManagerForIIS_V1.5.0
+2. rewrite_amd64_en-US.
+3. Extract the contents of php-7.3.8-nts-Win32-VC15-x86.zip to C:\PHP
+4. 
 </p>
 <p>
 <img src=/>

@@ -46,6 +46,7 @@ Remote Desktop Connection is a program found on Windows that allows us to remote
 
 <h3>Step 4: Configuring Windows and Installing Prerequisite Software</h3>
 <p>
+You can follow thw
 Install / Enable IIS in Windows WITH
 CGI and Common HTTP Features
 World Wide Web Services -> Application Development Features ->

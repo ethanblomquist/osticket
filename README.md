@@ -116,7 +116,7 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 
 <h1>Part 2 - Post-Install Configuration</h1>
 
-<h3>Step 1: </h3>
+<h3>Step 1: Configure Roles</h3>
 <p>
 
 </p>
@@ -125,7 +125,77 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 </p>
 <br />
 
+<h3>Step 2: Configure Departments</h3>
+<p>
 
+</p>
+<p>
+<img src=/>
+</p>
+<br />
+
+<h3>Step 3: Configure Teams</h3>
+<p>
+
+</p>
+<p>
+<img src=/>
+</p>
+<br />
+
+<h3>Step 4: Allow anyone to create tickets</h3>
+<p>
+
+</p>
+<p>
+<img src=/>
+</p>
+<br />
+
+<h3>Step 5: Configure Agents</h3>
+<p>
+
+</p>
+<p>
+<img src=/>
+</p>
+<br />
+
+<h3>Step 6: Configure Agents</h3>
+<p>
+
+</p>
+<p>
+<img src=/>
+</p>
+<br />
+
+<h3>Step 7: Configure Users (customers)</h3>
+<p>
+
+</p>
+<p>
+<img src=/>
+</p>
+<br />
+
+<h3>Step 8: Configure SLA</h3>
+<p>
+
+</p>
+<p>
+<img src=/>
+</p>
+<br />
+
+<h3>Step 9: Configure Help Topics</h3>
+<p>
+
+</p>
+<p>
+<img src=/>
+</p>
+<br />
 
 <h1>>Part 3 - Ticket Lifecycle: Intake Through Resolution</h1>
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />

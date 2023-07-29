@@ -101,9 +101,10 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 11. Right-click ost-config.php -> Properties -> Advanced -> Disable Inheritance -> Remove All -> Add -> Select a Pricipal -> Type "Everyone" -> "OK" -> Full Control -> "OK" -> Apply
 </p>
 <p>
-Return to osTicket Running in the browser. -> Select "Continue" -> Name Helpdesk -> Choose Default email (receives email from customers) -> Enter Admin Udser information
+12. Return to osTicket Running in the browser. -> Select "Continue" -> Name Helpdesk -> Choose Default email (receives email from customers) -> Enter Admin Udser information
 </p>
 <p>
+13. Open HeidiSQL_12.3.0.6589_Setup -> Select the link within to download the exe file -> Install HeidiSQL_12.3.0.6589_Setup -> Open Heidi SQL -> Create a new session -> User: root -> Password: Password1 -> Connect to the session -> Create a database called “osTicket”
 
 </p>
 <br />

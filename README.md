@@ -115,10 +115,10 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 <br />
 
 <h1>Part 2 - Post-Install Configuration</h1>
-We can now log in to the osTicket system and configure our settings. The system is seperated into two panels, the Agent and the Admin panel.
+We can now log in to the osTicket system, we can now examine the various functionalities of osTicket and configure custom settings. The system is seperated into two panels, the Agent and the Admin panel. 
 <h3>Step 1: Configure Roles</h3>
 <p>
-Admin Panel -> Agents -> Roles
+Navigate to the Admin Panel -> Agents -> Roles -> Add New Role -> Name: Supreme Admin(or whatever you prefer) -> Permissions -> Check all boxes under Tickets, Tasks and Knowledgebase.
 </p>
 <p>
 <img src=/>
@@ -127,7 +127,7 @@ Admin Panel -> Agents -> Roles
 
 <h3>Step 2: Configure Departments</h3>
 <p>
-
+Admin Panel -> Agents -> Departments
 </p>
 <p>
 <img src=/>
@@ -136,7 +136,7 @@ Admin Panel -> Agents -> Roles
 
 <h3>Step 3: Configure Teams</h3>
 <p>
-
+Admin Panel -> Agents -> Teams
 </p>
 <p>
 <img src=/>
@@ -145,52 +145,43 @@ Admin Panel -> Agents -> Roles
 
 <h3>Step 4: Allow anyone to create tickets</h3>
 <p>
-
+Admin Panel -> Settings -> User Settings
 </p>
 <p>
 <img src=/>
 </p>
 <br />
 
-<h3>Step 5: Configure Agents</h3>
+<h3>Step 5: Configure Agents(Employees)</h3>
 <p>
-
+Admin Panel -> Agents -> Add New
 </p>
 <p>
 <img src=/>
 </p>
 <br />
 
-<h3>Step 6: Configure Agents</h3>
+<h3>Step 6: Configure Users(Customers)</h3>
 <p>
-
+Agent Panel -> Users -> Add New
 </p>
 <p>
 <img src=/>
 </p>
 <br />
 
-<h3>Step 7: Configure Users (customers)</h3>
+<h3>Step 7: Configure SLA</h3>
 <p>
-
+Admin Panel -> Manage -> SLA
 </p>
 <p>
 <img src=/>
 </p>
 <br />
 
-<h3>Step 8: Configure SLA</h3>
+<h3>Step 8: Configure Help Topics</h3>
 <p>
-
-</p>
-<p>
-<img src=/>
-</p>
-<br />
-
-<h3>Step 9: Configure Help Topics</h3>
-<p>
-
+Admin Panel -> Manage -> Help Topics
 </p>
 <p>
 <img src=/>

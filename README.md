@@ -86,18 +86,26 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 7. Extract osTicket v1.15.8 -> Copy "upload" folder to c:\inetpub\wwwroot -> Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” -> Once again return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 </p>
 <p>
-Once again return to the main paige of IIS, then select "Restart" under the "Actions" tab. -> Under the "Connections" tab navigate to Sites -> Default -> left click osTicket folder -> select “Browse *:80 (http)” on the right. This is a preview of the osTicket application running on a browser, but we still need to enable some extensions. 
+8. Once again return to the main paige of IIS, then select "Restart" under the "Actions" tab. -> Under the "Connections" tab navigate to Sites -> Default -> left click osTicket folder -> select “Browse *:80 (http)” on the right. This is a preview of the osTicket application running on a browser, but we still need to enable some extensions. 
 </p>
 <p>
-Return to the osTicket folder in IIS. Double-click PHP Manager -> Click “Enable or disable an extension” -> Enable: php_imap.dll -> Enable: php_intl.dll -> Enable: php_opcache.dll -> Refresh the osTicket site in your browser and observe the changes.
+9. Return to the osTicket folder in IIS. Double-click PHP Manager -> Click “Enable or disable an extension” -> Enable: php_imap.dll -> Enable: php_intl.dll -> Enable: php_opcache.dll -> Refresh the osTicket site in your browser and observe the changes.
 </p>
 <p>
 <img src=https://i.imgur.com/0bHqepX.png/>
 </p>
 <p>
+10. Rename C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php
+</p>
+<p>
+11. Right-click ost-config.php -> Properties -> Advanced -> Disable Inheritance -> Remove All -> Add -> Select a Pricipal -> Type "Everyone" -> "OK" -> Full Control -> "OK" -> Apply
+</p>
+<p>
+Return to osTicket Running in the browser. -> Select "Continue" -> Name Helpdesk -> Choose Default email (receives email from customers) -> Enter Admin Udser information
+</p>
+<p>
 
 </p>
-
 <br />
 
 <h3>Step 5: </h3>

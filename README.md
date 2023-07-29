@@ -98,71 +98,34 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 10. Rename C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 <p>
-11. Right-click ost-config.php -> Properties -> Advanced -> Disable Inheritance -> Remove All -> Add -> Select a Pricipal -> Type "Everyone" -> "OK" -> Full Control -> "OK" -> Apply
+11. Right-click ost-config.php -> Properties -> Security -> Advanced -> Disable Inheritance -> Remove All -> Add -> Select a Pricipal -> Type "Everyone" -> "OK" -> Full Control -> "OK" -> Apply
 </p>
 <p>
 12. Return to osTicket Running in the browser. -> Select "Continue" -> Name Helpdesk -> Choose Default email (receives email from customers) -> Enter Admin Udser information
 </p>
 <p>
-13. Open HeidiSQL_12.3.0.6589_Setup -> Select the link within to download the exe file -> Install HeidiSQL_12.3.0.6589_Setup -> Open Heidi SQL -> Create a new session -> User: root -> Password: Password1 -> Connect to the session -> Create a database called “osTicket”
-
-</p>
-<br />
-
-<h3>Step 5: </h3>
-<p>
-
+13. Open HeidiSQL_12.3.0.6589_Setup -> Select the link within to download the exe file -> Install HeidiSQL_12.3.0.6589_Setup -> Open Heidi SQL -> Create a new session -> User: root -> Password: Password1 -> Connect to the session -> Create a database called “osTicket” -> Return to osTicket on browser -> MySQL Database: osTicket -> User and password are the same as above -> Select "Install Now!"
 </p>
 <p>
-<img src=/>
-</p>
-<br />
-
-<h3>Step 6: </h3>
-<p>
-
+14. Finally, delete the folder C:\inetpub\wwwroot\osTicket\setup -> Navigate to C:\inetpub\wwwroot\osTicket\include\ost-config.php ->Right-click -> Properties -> Security -> Advanced -> Select "Everyone" -> Edit -> Basic Permissions -> Leave only "Read & Execute" -> "OK" -> Apply -> "OK" 
 </p>
 <p>
-<img src=/>
+15. You can now enter http://localhost/osTicket/scp/login.php into the VM's browser to log in to the help desk. Use http://localhost/osTicket/ to access the end user side of the system.
 </p>
 <br />
 
 <h1>Part 2 - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
-<h2>Post-Install Configuration Objectives</h2>
+<h3>Step 1: </h3>
+<p>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
-<h2>Configuration Steps</h2>
-
+</p>
 <p>
 <img src=/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <h1>>Part 3 - Ticket Lifecycle: Intake Through Resolution</h1>
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />

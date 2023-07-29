@@ -115,10 +115,10 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 <br />
 
 <h1>Part 2 - Post-Install Configuration</h1>
-
+We can now log in to the osTicket system and configure our settings. The system is seperated into two panels, the Agent and the Admin panel.
 <h3>Step 1: Configure Roles</h3>
 <p>
-
+Admin Panel -> Agents -> Roles
 </p>
 <p>
 <img src=/>

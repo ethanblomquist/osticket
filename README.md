@@ -21,17 +21,11 @@ This tutorial is a complete guide to installing, configuring and implementing th
 <p>
 We will first need to create a Virtual Machine. To do this we will be using a a cloud computing platform called Microsoft Azure: https://portal.azure.com/ . After logging in to your Microsoft Azure account, create a Resource Group. You can find this using the search bar at the top of the page. We will name this Resource Grop "osTicket". No need to add any tags at this time, select "next" until you are prompted to create the Resource Group.
 </p>
-<p>
-<img src=https://i.imgur.com/86tpldV.png/><img src=https://i.imgur.com/1mHRpgF.png/>
-</p>
 <br />
 
 <h3>Step 2:Virtual Machines</h3>
 <p>
 Using the same search bar as before, find and select the "Virtual Machines" service. We will now create the Virtual Machine that will host our implemantation of osTicket. Start by sleceting the "Create" button in the center of the page, then select "Azure virtual machine". Select "osTicket" as your Resource Group. We will name our VM "VM-osTicket". Select Windows 10 Pro as an operating system. In order to ensure our VM runs smoothly, we will choose the 4 vcpu, 16 Gib memory size. 
-</p>
-<p>
-<img src=https://i.imgur.com/N51xQFo.png/><img src=https://i.imgur.com/6ZbLPUC.png/>
 </p>
 <br />
 

@@ -115,7 +115,7 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 <br />
 
 <h1>Part 2 - Post-Install Configuration</h1>
-We can now log in to the osTicket system, we can now examine the various functionalities of osTicket and configure custom settings. The system is seperated into two panels, the Agent and the Admin panel. 
+We can now log in to the osTicket system and examine it's various functionalities and configure custom settings. The system is seperated into two panels, the Agent and the Admin panel. 
 <h3>Step 1: Configure Roles</h3>
 <p>
 Navigate to the Admin Panel -> Agents -> Roles -> Add New Role -> Name: Supreme Admin(or whatever you prefer) -> Permissions -> Check all boxes under Tickets, Tasks and Knowledgebase.

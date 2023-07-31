@@ -22,12 +22,12 @@ This tutorial is a complete guide to installing, configuring and implementing th
 We will first need to create a Virtual Machine. To do this we will be using a a cloud computing platform called Microsoft Azure: https://portal.azure.com/ . After logging in to your Microsoft Azure account, create a Resource Group. You can find this using the search bar at the top of the page. We will name this Resource Grop "osTicket". No need to add any tags at this time, select "next" until you are prompted to create the Resource Group.
 </p>
 
-<h3>Step 2:Virtual Machines</h3>
+<h3>Step 2: Virtual Machines</h3>
 <p>
 Using the same search bar as before, find and select the "Virtual Machines" service. We will now create the Virtual Machine that will host our implemantation of osTicket. Start by seleceting the "Create" button in the center of the page, then select "Azure virtual machine". Select "osTicket" as your Resource Group. We will name our VM "VM-osTicket". Select Windows 10 Pro as an operating system. In order to ensure our VM runs smoothly, we will choose the 4 vcpu, 16 Gib memory size. 
 </p>
 
-<h3>Step 3:Connecting to the VM via Remote Desktop Connection</h3>
+<h3>Step 3: Connecting to the VM via Remote Desktop Connection</h3>
 <p>
 Remote Desktop Connection is a program found on Windows that allows us to remotely access the VM we just created. First find Remote Desktop Connection via the Windows search bar, or type "MSTSC" into the command prompt. Next, enter the Public IP address for the VM. This can be found on the "Virtual machines" page to the far right of the screen. You will be asked to enter the credentials you created for the VM.
 </p>

@@ -128,28 +128,28 @@ Next we can navigatre to the "Departments" tab in the same "Agents" section. The
 
 <h3>Step 3: Configure Teams</h3>
 <p>
-ext we can navigatre to the "Teams" tab in the same "Agents" section. Then Add New Team -> Name: Level II Support 
+We can now navigatre to the "Teams" tab in the same "Agents" section. Then Add New Team -> Name: Level II Support 
 </p>
 <p>
 <img src=https://i.imgur.com/NO73ZwJ.png/>
 </p>
 <br />
 
-<h3>Step 4: Allow anyone to create tickets</h3>
+<h3>Step 4: Configure Agents(Employees)</h3>
 <p>
-Admin Panel -> Settings -> User Settings
+The lastr section is the the "Agents" tab in the same "Agents" section as before. Then Add New Agent -> We can create two agents. One named Jane Doe and the other John Doe. Email address can be set to something like jane.doe@helper.com. Username: jane.doe -> Password: Password1. Keep in mind hese names are just placeholders. We can place them in the System Administrators Department, -> Role: Supreme Admin -> Permissions: All -> Team: Level II Support . Repeat these steps for an agent named "John Doe". Make sure to make a record of their login info. 
 </p>
 <p>
-<img src=/>
+<img src=https://i.imgur.com/vHPJ9Pn.png/>
 </p>
 <br />
 
-<h3>Step 5: Configure Agents(Employees)</h3>
+<h3>Step 5: Allow anyone to create tickets</h3>
 <p>
-Admin Panel -> Agents -> Add New
+Now we will need to adjust a setting that controls who may create tickets. Navigate to Admin Panel -> Settings -> Users . Make sure the "Registration Required" field is <u>unchecked</u>.
 </p>
 <p>
-<img src=/>
+<img src=https://i.imgur.com/fK8NRG6.png/>
 </p>
 <br />
 

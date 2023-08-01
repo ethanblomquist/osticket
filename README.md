@@ -191,6 +191,7 @@ We can find the last step at Admin Panel -> Manage -> Help Topics -> Add New Hel
 <br />
 
 <h1>>Part 3 - Ticket Lifecycle: Intake Through Resolution</h1>
+We can now act both as the end user and the IT support agent to simulate resolving a few different tickets.
 
 <h2>Ticket Lifecycle Stages</h2>
 
@@ -199,4 +200,49 @@ We can find the last step at Admin Panel -> Manage -> Help Topics -> Add New Hel
 - Working the Issue
 - Resolution
 
-<h2>Lifecycle Stages</h2>
+<h3>Step 1: Create Support Tickets as an End User</h3>
+<p>
+Use the following link to access the end user side of odTicket: http://localhost/osTicket/ -> Open a New Ticket. We will now create 3 tickets:
+</p>
+<h3>Business Crtical Outage</h3>
+<p>
+<img src=https://i.imgur.com/ywCGo0p.png/>
+</p>
+<h3>General Inquiry</h3>
+<p>
+<img src=https://i.imgur.com/HABjTSe.png/>
+</p>
+<h3>Personal Computer Issues</h3>
+<p>
+<img src=https://i.imgur.com/4WkgXwS.png/>
+</p>
+<br />
+
+<h3>Step 1: Configure Roles</h3>
+<p>
+
+</p>
+<p>
+<img src=/>
+</p>
+<br />
+
+<h3>Step 1: Configure Roles</h3>
+<p>
+
+</p>
+<p>
+<img src=/>
+</p>
+<br />
+
+<h3>Step 1: Configure Roles</h3>
+<p>
+
+</p>
+<p>
+<img src=/>
+</p>
+<br />
+
+

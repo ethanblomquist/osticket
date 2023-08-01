@@ -236,27 +236,35 @@ Now we can return to the help desk login page and log in as one of our agents, J
 </p>
 <p>
 <img src=https://i.imgur.com/uvDzuSP.png/>
-/>
 </p>
 <br/>
 
 <h3>Step 3: Resolving Tickets</h3>
 <p>
-Each ticket will have a thread documenting eaching action taken on the ticket and all communication related to it. Because the issue with online banking severly impacts the business, that would be our first priority. Still logged in as Jane Doe, we can select this SEV-A ticket and scroll down to post a reply. It is always good practice to send a short reply when you recieve a ticket to acknowledge you are working on the issue, especially if the issue is serious. Next, when the issue is resolved we can breifly describe what was done to solve the problem and mark the ticket as resolved. Once the ticket is resolved it will no longer show up in the "Open" tab and will be archived in the "Closed" Tab
+Each ticket will have a thread documenting each action taken on the ticket and all communication related to it. It is always good practice to send a short reply when you recieve a ticket to acknowledge you are working on the issue, especially if it is serious. 
 </p>
 <p>
 <img src=https://i.imgur.com/51bq2Zl.png/>
 </p>
+<ul>
+  <li>Online Banking System is Down: Because the issue with online banking severly impacts the business, that would be our first priority. Still logged in as Jane Doe, we can select this SEV-A ticket and scroll down to post a reply. Once we have found a solution, we can post a reply describing what was done and mark the ticket as "Resolved"<img src=https://i.imgur.com/Bsir8XC.png/></li>
+  <li>Adobe Reader Broken in Accounting Department: This ticket was assigned to John Doe, so let's first log into his account, then we can follow the same steps to resolve this ticket. Although the issue itself does not directly impact business, it is affecting a high number of employees, the entire accounting department. So we set this to a SEV-B and need to get it resolved within 4 hours. <img src=https://i.imgur.com/RMbgcIG.png/></li>
+  <li>When are we Getting a Hardware Refresh?: </li>
+</ul>
+
 <p>
-<img src=https://i.imgur.com/Bsir8XC.png/>
+
 </p>
 <br />
+
 
 <h3>Step 1: Configure Roles</h3>
 <p>
 
 </p>
-
+<p>
+<img src=/>
+</p>
 <br />
 
 

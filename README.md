@@ -161,29 +161,32 @@ Now we will need to switch to the Agent Panel at the top right of the page. Then
 </p>
 <br />
 
-<h3>Step 7: Configure SLA</h3>
+<h3>Step 7: Configure Serveice Level Aggreements SLAs</h3>
 <p>
-Next we can switch back to the Admin Panel -> Manage -> SLA -> Add New SLA Plan. We will add a total of 3 SLA Plans. 
-</p>
+Next we can switch back to the Admin Panel -> Manage -> SLA -> Add New SLA Plan. We will add a total of 3 SLA Plans:
 <ul>
-  <li>Sev-A (1 hour, 24/7)</li>
-  <li>Sev-B (4 hours, 24/7)</li>
-  <li>Sev-C (8 hours, business hours)</li>
+  <li>Sev-A: 1 hour, 24/7</li>
+  <li>Sev-B: 4 hours, 24/7</li>
+  <li>Sev-C: 8 hours, business hours(24/5)</li>
 </ul>
-
-
-
+</p>
 <p>
-<img src=/>
+<img src=https://i.imgur.com/7Nl0q2u.png/>
 </p>
 <br />
 
 <h3>Step 8: Configure Help Topics</h3>
 <p>
-Admin Panel -> Manage -> Help Topics
+We can find the last step at Admin Panel -> Manage -> Help Topics -> Add New Help Topic. We will add 4 new help topics:
+<ul>
+  <li>Business Critical Outage</li>
+  <li>Personal Computer Issues</li>
+  <li>Equipment Request</li>
+  <li>Password Reset</li>
+</ul>
 </p>
 <p>
-<img src=/>
+<img src=https://i.imgur.com/ezuno1Q.png/>
 </p>
 <br />
 

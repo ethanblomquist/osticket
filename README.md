@@ -248,8 +248,8 @@ Each ticket will have a thread documenting each action taken on the ticket and a
 </p>
 <ul>
   <li>Online Banking System is Down: Because the issue with online banking severly impacts the business, that would be our first priority. Still logged in as Jane Doe, we can select this SEV-A ticket and scroll down to post a reply. Once we have found a solution, we can post a reply describing what was done and mark the ticket as "Resolved"<img src=https://i.imgur.com/Bsir8XC.png/></li>
-  <li>Adobe Reader Broken in Accounting Department: This ticket was assigned to John Doe, so let's first log into his account, then we can follow the same steps to resolve this ticket. Although the issue itself does not directly impact business, it is affecting a high number of employees, the entire accounting department. So we set this to a SEV-B and need to get it resolved within 4 hours. <img src=https://i.imgur.com/RMbgcIG.png/></li>
-  <li>When are we Getting a Hardware Refresh?: In the case of someone lookinf for information, we can update them on the situation and usually mark the ticket as resolved right away. <img src=https://i.imgur.com/urCjzNx.png/> </li>
+  <li>Adobe Reader Broken in Accounting Department: This ticket was assigned to John Doe, so let's first log into his account, then we can follow the same steps to resolve this ticket. Although the issue itself does not directly impact business, it is affecting a high number of employees, the entire accounting department. So we set this to a SEV-B and need to get it resolved within 4 hours. In this case we may need to find a temporary solution to give us time to reolve the deeper issue. <img src=https://i.imgur.com/2P7uKrs.png/><img src=https://i.imgur.com/FNNFJWo.png/></li>
+  <li>When are we Getting a Hardware Refresh?: In the case of someone looking for information, we can update them on the situation and usually mark the ticket as resolved right away. <img src=https://i.imgur.com/urCjzNx.png/> </li>
 </ul>
 
 <p>

@@ -124,7 +124,7 @@ The system is seperated into two panels, the Agent and the Admin panel. We will 
 <p>
 Next we can navigatre to the "Departments" tab in the same "Agents" section. Then Add New Role -> Name: System Administrators 
 </p>
-<p>
+<br />
 
 <h3>Step 3: Configure Teams</h3>
 <p>
@@ -156,7 +156,6 @@ Now we will need to adjust a setting that controls who may create tickets. Navig
 <h3>Step 6: Configure Users(Customers)</h3>
 <p>
 Now we will need to switch to the Agent Panel at the top right of the page. Then -> Users -> Add New. We will add two users, Ken Ken and Karen Karen. Emails can be set to ken@osticket.com and karen@osticket.com.
-</p>
 <p>
 <img src=https://i.imgur.com/hYpajDX.png/>
 </p>
@@ -164,8 +163,16 @@ Now we will need to switch to the Agent Panel at the top right of the page. Then
 
 <h3>Step 7: Configure SLA</h3>
 <p>
-Admin Panel -> Manage -> SLA
+Next we can switch back to the Admin Panel -> Manage -> SLA -> Add New SLA Plan. We will add a total of 3 SLA Plans. 
 </p>
+<ul>
+  <li>Sev-A (1 hour, 24/7)</li>
+  <li>Sev-B (4 hours, 24/7)</li>
+  <li>Sev-C (8 hours, business hours)</li>
+</ul>
+
+
+
 <p>
 <img src=/>
 </p>

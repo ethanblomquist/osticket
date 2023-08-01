@@ -109,31 +109,29 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 <br />
 
 <h1>Part 2 - Post-Install Configuration</h1>
-We can now log in to the osTicket system and examine it's various functionalities and configure custom settings. The system is seperated into two panels, the Agent and the Admin panel. 
+We can now log in to the osTicket system and examine it's various functionalities and configure custom settings. If you would like more information on any of the topics covered, you can access documentation at: https://docs.osticket.com/en/latest/index.html
+
 <h3>Step 1: Configure Roles</h3>
 <p>
-Navigate to the Admin Panel -> Agents -> Roles -> Add New Role -> Name: Supreme Admin(or whatever you prefer) -> Permissions -> Check all boxes under Tickets, Tasks and Knowledgebase.
+The system is seperated into two panels, the Agent and the Admin panel. We will first navigate to the Admin Panel -> Agents -> Roles -> Add New Role -> Name: Supreme Admin(or whatever you prefer) -> Permissions -> Check all boxes under Tickets, Tasks and Knowledgebase.
 </p>
 <p>
-<img src=/>
+<img src=https://i.imgur.com/h6CYJaM.png/>
 </p>
 <br />
 
 <h3>Step 2: Configure Departments</h3>
 <p>
-Admin Panel -> Agents -> Departments
+Next we can navigatre to the "Departments" tab in the same "Agents" section. Then Add New Role -> Name: System Administrators 
 </p>
 <p>
-<img src=/>
-</p>
-<br />
 
 <h3>Step 3: Configure Teams</h3>
 <p>
-Admin Panel -> Agents -> Teams
+ext we can navigatre to the "Teams" tab in the same "Agents" section. Then Add New Team -> Name: Level II Support 
 </p>
 <p>
-<img src=/>
+<img src=https://i.imgur.com/NO73ZwJ.png/>
 </p>
 <br />
 

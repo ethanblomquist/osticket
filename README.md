@@ -223,7 +223,7 @@ Use the following link to access the end user side of odTicket: http://localhost
 
 <h3>Step 2: Triage and Assign Tickets</h3>
 <p>
-Now we can return to the help desk login page and log in as one of our agents, Jane Doe. Enter the login information we set earlier. We can now see the 3 tickets we made. We can adjust the priority, SLA and assign these tickets to our agents. For example, our ticket from Karen heavily impacts the business and customers, so we would assign a high priority and SEV-A SLA. Since the support team would most likely not independently deal with an issue of this severity, we can also transfer it to the System Administrator department.
+Now we can return to the help desk login page and log in as one of our agents, Jane Doe. Enter the login information we set earlier. We can now see the 3 tickets we made. We can adjust the priority, SLA and assign these tickets to our agents. For example, our ticket from Karen heavily impacts the business and customers, so we would assign a high priority and SEV-A SLA. Since the support team would most likely not independently deal with an issue of this severity, we can also transfer it to the System Administrator department. We can configure the tickets in the following way:
 </p>
 <p>
 <img src=https://i.imgur.com/9gVu7AT.png/>
@@ -234,14 +234,21 @@ Now we can return to the help desk login page and log in as one of our agents, J
 <p>
 <img src=https://i.imgur.com/ELDOjam.png/>
 </p>
+<p>
+<img src=https://i.imgur.com/uvDzuSP.png/>
+/>
+</p>
 <br/>
 
-<h3>Step 1: Configure Roles</h3>
+<h3>Step 3: Resolving Tickets</h3>
 <p>
-
+Each ticket will have a thread documenting eaching action taken on the ticket and all communication related to it. Because the issue with online banking severly impacts the business, that would be our first priority. Still logged in as Jane Doe, we can select this SEV-A ticket and scroll down to post a reply. It is always good practice to send a short reply when you recieve a ticket to acknowledge you are working on the issue, especially if the issue is serious. Next, when the issue is resolved we can breifly describe what was done to solve the problem and mark the ticket as resolved. Once the ticket is resolved it will no longer show up in the "Open" tab and will be archived in the "Closed" Tab
 </p>
 <p>
-<img src=/>
+<img src=https://i.imgur.com/51bq2Zl.png/>
+</p>
+<p>
+<img src=https://i.imgur.com/Bsir8XC.png/>
 </p>
 <br />
 
@@ -249,9 +256,7 @@ Now we can return to the help desk login page and log in as one of our agents, J
 <p>
 
 </p>
-<p>
-<img src=/>
-</p>
+
 <br />
 
 

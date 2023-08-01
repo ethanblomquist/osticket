@@ -137,10 +137,13 @@ We can now navigatre to the "Teams" tab in the same "Agents" section. Then Add N
 
 <h3>Step 4: Configure Agents(Employees)</h3>
 <p>
-The lastr section is the the "Agents" tab in the same "Agents" section as before. Then Add New Agent -> We can create two agents. One named Jane Doe and the other John Doe. Email address can be set to something like jane.doe@helper.com. Username: jane.doe -> Password: Password1. Keep in mind hese names are just placeholders. We can place them in the System Administrators Department, -> Role: Supreme Admin -> Permissions: All -> Team: Level II Support . Repeat these steps for an agent named "John Doe". Make sure to make a record of their login info. 
+The lastr section is the the "Agents" tab in the same "Agents" section as before. Then Add New Agent -> We can create two agents. One named Jane Doe and the other John Doe. Email address can be set to something like jane.doe@helper.com. Username: jane.doe -> Password: Password1. Keep in mind hese names are just placeholders. We can place them in the System Administrators Department, -> Role: Supreme Admin -> Permissions: All -> Team: Level II Support . Let's also extended access to the "Support" department as well. Repeat these steps for an agent named "John Doe". Make sure to make a record of their login info. 
 </p>
 <p>
 <img src=https://i.imgur.com/vHPJ9Pn.png/>
+</p>
+<p>
+<img src=https://i.imgur.com/j6vM8N4.png/>
 </p>
 <br />
 
@@ -218,9 +221,9 @@ Use the following link to access the end user side of odTicket: http://localhost
 </p>
 <br />
 
-<h3>Step 1: Configure Roles</h3>
+<h3>Step 2: Configure Roles</h3>
 <p>
-
+Now we can log in to osTicket as one of our agents: 
 </p>
 <p>
 <img src=/>

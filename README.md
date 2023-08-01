@@ -36,7 +36,7 @@ Remote Desktop Connection is a program found on Windows that allows us to remote
 <p>
 <img src=https://i.imgur.com/vRfL9WX.png/>
 </p>
-<br />
+<br/>
 
 <h3>Step 4: Configuring Windows and Installing Prerequisite Software</h3>
 <p>
@@ -106,7 +106,7 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 <p>
 15. You can now enter http://localhost/osTicket/scp/login.php into the VM's browser to log in to the help desk. Use http://localhost/osTicket/ to access the end user side of the system.
 </p>
-<br />
+<br/>
 
 <h1>Part 2 - Post-Install Configuration</h1>
 We can now log in to the osTicket system and examine it's various functionalities and configure custom settings. If you would like more information on any of the topics covered, you can access documentation at: https://docs.osticket.com/en/latest/index.html
@@ -118,13 +118,13 @@ The system is seperated into two panels, the Agent and the Admin panel. We will 
 <p>
 <img src=https://i.imgur.com/h6CYJaM.png/>
 </p>
-<br />
+<br/>
 
 <h3>Step 2: Configure Departments</h3>
 <p>
 Next we can navigatre to the "Departments" tab in the same "Agents" section. Then Add New Role -> Name: System Administrators 
 </p>
-<br />
+<br/>
 
 <h3>Step 3: Configure Teams</h3>
 <p>
@@ -133,11 +133,11 @@ We can now navigatre to the "Teams" tab in the same "Agents" section. Then Add N
 <p>
 <img src=https://i.imgur.com/NO73ZwJ.png/>
 </p>
-<br />
+<br/>
 
 <h3>Step 4: Configure Agents(Employees)</h3>
 <p>
-The lastr section is the the "Agents" tab in the same "Agents" section as before. Then Add New Agent -> We can create two agents. One named Jane Doe and the other John Doe. Email address can be set to something like jane.doe@helper.com. Username: jane.doe -> Password: Password1. Keep in mind hese names are just placeholders. We can place them in the System Administrators Department, -> Role: Supreme Admin -> Permissions: All -> Team: Level II Support . Let's also extended access to the "Support" department as well. Repeat these steps for an agent named "John Doe". Make sure to make a record of their login info. 
+The lastr section is the the "Agents" tab in the same "Agents" section as before. Then Add New Agent -> We can create two agents. One named Jane Doe and the other John Doe. Email address can be set to something like jane.doe@helper.com. Username: jane.doe -> Password: Password1. Keep in mind hese names are just placeholders. We can place them in the System Administrators Department, -> Role: Supreme Admin -> Permissions: All -> Team: Level II Support . Let's also extended access to the "Support" department. Repeat these steps for an agent named "John Doe". Make sure to make a record of their login info. 
 </p>
 <p>
 <img src=https://i.imgur.com/vHPJ9Pn.png/>
@@ -145,7 +145,7 @@ The lastr section is the the "Agents" tab in the same "Agents" section as before
 <p>
 <img src=https://i.imgur.com/j6vM8N4.png/>
 </p>
-<br />
+<br/>
 
 <h3>Step 5: Allow anyone to create tickets</h3>
 <p>
@@ -154,7 +154,7 @@ Now we will need to adjust a setting that controls who may create tickets. Navig
 <p>
 <img src=https://i.imgur.com/fK8NRG6.png/>
 </p>
-<br />
+<br/>
 
 <h3>Step 6: Configure Users(Customers)</h3>
 <p>
@@ -162,7 +162,7 @@ Now we will need to switch to the Agent Panel at the top right of the page. Then
 <p>
 <img src=https://i.imgur.com/hYpajDX.png/>
 </p>
-<br />
+<br/>
 
 <h3>Step 7: Configure Serveice Level Aggreements SLAs</h3>
 <p>
@@ -176,7 +176,7 @@ Next we can switch back to the Admin Panel -> Manage -> SLA -> Add New SLA Plan.
 <p>
 <img src=https://i.imgur.com/7Nl0q2u.png/>
 </p>
-<br />
+<br/>
 
 <h3>Step 8: Configure Help Topics</h3>
 <p>
@@ -191,7 +191,7 @@ We can find the last step at Admin Panel -> Manage -> Help Topics -> Add New Hel
 <p>
 <img src=https://i.imgur.com/ezuno1Q.png/>
 </p>
-<br />
+<br/>
 
 <h1>>Part 3 - Ticket Lifecycle: Intake Through Resolution</h1>
 We can now act both as the end user and the IT support agent to simulate resolving a few different tickets.
@@ -219,16 +219,16 @@ Use the following link to access the end user side of odTicket: http://localhost
 <p>
 <img src=https://i.imgur.com/4WkgXwS.png/>
 </p>
-<br />
+<br/>
 
-<h3>Step 2: Configure Roles</h3>
+<h3>Step 2: Triage and Assign Tickets</h3>
 <p>
-Now we can log in to osTicket as one of our agents: 
+Now we can return to the help desk login page and log in as one of our agents, Jane Doe. Enter the login information we set earlier. We can now see the 3 tickets we made. We can adjust the priority, SLA and assign these tickets to our agents. For example, our ticket from Karen heavily impacts the business and customers, so we would assign a high priority and SEV-A SLA. Since the support team would most likely not independently deal with an issue of this severity, we can also trasnfer is to the System Administrator department.
 </p>
 <p>
-<img src=/>
+<img src=https://i.imgur.com/9gVu7AT.png/>
 </p>
-<br />
+<br/>
 
 <h3>Step 1: Configure Roles</h3>
 <p>

@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket: From Installation to Ticket Resolution</h1>
-This tutorial is a complete guide to installing, configuring and implementing the open-source help desk ticketing system osTicket. First we will cover the prerequisites and installation process, then the configuration required post-install. Finally we will learn the lifecycle of a supoort ticket from intake all the way through to resolution.<br/>
+This tutorial is a complete guide to installing, configuring and implementing the open-source help desk ticketing system osTicket. First we will cover the prerequisites and installation process, then the configuration required post-install. Finally we will learn the lifecycle of a support ticket from intake all the way through to resolution.<br/>
 
 <h3>Environments and Technologies Used</h3>
 
@@ -19,13 +19,13 @@ This tutorial is a complete guide to installing, configuring and implementing th
 
 <h3>Step 1: Resource Groups</h3>
 <p>
-We will first need to create a Virtual Machine. To do this we will be using a a cloud computing platform called Microsoft Azure: https://portal.azure.com/ . After logging in to your Microsoft Azure account, create a Resource Group. You can find this using the search bar at the top of the page. We will name this Resource Grop "osTicket". No need to add any tags at this time, select "next" until you are prompted to create the Resource Group.
+We will first need to create a Virtual Machine. To do this we will be using a a cloud computing platform called Microsoft Azure: https://portal.azure.com/ . After logging in to your Microsoft Azure account, create a Resource Group. You can find this using the search bar at the top of the page. We will name this Resource Group "osTicket". No need to add any tags at this time, select "next" until you are prompted to create the Resource Group.
 </p>
 <img src=https://i.imgur.com/8NU0JbM.png/>
 
 <h3>Step 2: Virtual Machines</h3>
 <p>
-Using the same search bar as before, find and select the "Virtual Machines" service. We will now create the Virtual Machine that will host our implemantation of osTicket. Start by seleceting the "Create" button in the center of the page, then select "Azure virtual machine". Select "osTicket" as your Resource Group. We will name our VM "VM-osTicket". Select Windows 10 Pro as an operating system. In order to ensure our VM runs smoothly, we will choose the 4 vcpu, 16 Gib memory size. 
+Using the same search bar as before, find and select the "Virtual Machines" service. We will now create the Virtual Machine that will host our implementation of osTicket. Start by selecting the "Create" button in the center of the page, then select "Azure virtual machine". Select "osTicket" as your Resource Group. We will name our VM "VM-osTicket". Select Windows 10 Pro as an operating system. In order to ensure our VM runs smoothly, we will choose the 4 vcpu, 16 Gib memory size. 
 </p>
 <img src=https://i.imgur.com/vOJ5nYJ.png/>
 
@@ -80,7 +80,7 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 7. Extract osTicket v1.15.8 -> Copy "upload" folder to c:\inetpub\wwwroot -> Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” -> Once again return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 </p>
 <p>
-8. Once again return to the main paige of IIS, then select "Restart" under the "Actions" tab. -> Under the "Connections" tab navigate to Sites -> Default -> left click osTicket folder -> select “Browse *:80 (http)” on the right. This is a preview of the osTicket application running on a browser, but we still need to enable some extensions. 
+8. Once again return to the main page of IIS, then select "Restart" under the "Actions" tab. -> Under the "Connections" tab navigate to Sites -> Default -> left click osTicket folder -> select “Browse *:80 (http)” on the right. This is a preview of the osTicket application running on a browser, but we still need to enable some extensions. 
 </p>
 <p>
 9. Return to the osTicket folder in IIS. Double-click PHP Manager -> Click “Enable or disable an extension” -> Enable: php_imap.dll -> Enable: php_intl.dll -> Enable: php_opcache.dll -> Refresh the osTicket site in your browser and observe the changes.
@@ -92,10 +92,10 @@ Return to the main paige of IIS, then select "Restart" under the "Actions" tab.
 10. Rename C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 <p>
-11. Right-click ost-config.php -> Properties -> Security -> Advanced -> Disable Inheritance -> Remove All -> Add -> Select a Pricipal -> Type "Everyone" -> "OK" -> Full Control -> "OK" -> Apply
+11. Right-click ost-config.php -> Properties -> Security -> Advanced -> Disable Inheritance -> Remove All -> Add -> Select a Principal -> Type "Everyone" -> "OK" -> Full Control -> "OK" -> Apply
 </p>
 <p>
-12. Return to osTicket Running in the browser. -> Select "Continue" -> Name Helpdesk -> Choose Default email (receives email from customers) -> Enter Admin Udser information
+12. Return to osTicket Running in the browser. -> Select "Continue" -> Name Helpdesk -> Choose Default email (receives email from customers) -> Enter Admin User information
 </p>
 <p>
 13. Open HeidiSQL_12.3.0.6589_Setup -> Select the link within to download the exe file -> Install HeidiSQL_12.3.0.6589_Setup -> Open Heidi SQL -> Create a new session -> User: root -> Password: Password1 -> Connect to the session -> Create a database called “osTicket” -> Return to osTicket on browser -> MySQL Database: osTicket -> User and password are the same as above -> Select "Install Now!"
@@ -113,7 +113,7 @@ We can now log in to the osTicket system and examine it's various functionalitie
 
 <h3>Step 1: Configure Roles</h3>
 <p>
-The system is seperated into two panels, the Agent and the Admin panel. We will first navigate to the Admin Panel -> Agents -> Roles -> Add New Role -> Name: Supreme Admin(or whatever you prefer) -> Permissions -> Check all boxes under Tickets, Tasks and Knowledgebase.
+The system is separated into two panels, the Agent and the Admin panel. We will first navigate to the Admin Panel -> Agents -> Roles -> Add New Role -> Name: Supreme Admin(or whatever you prefer) -> Permissions -> Check all boxes under Tickets, Tasks and Knowledgebase.
 </p>
 <p>
 <img src=https://i.imgur.com/h6CYJaM.png/>
@@ -122,13 +122,13 @@ The system is seperated into two panels, the Agent and the Admin panel. We will 
 
 <h3>Step 2: Configure Departments</h3>
 <p>
-Next we can navigatre to the "Departments" tab in the same "Agents" section. Then Add New Role -> Name: System Administrators 
+Next we can navigate to the "Departments" tab in the same "Agents" section. Then Add New Role -> Name: System Administrators 
 </p>
 <br/>
 
 <h3>Step 3: Configure Teams</h3>
 <p>
-We can now navigatre to the "Teams" tab in the same "Agents" section. Then Add New Team -> Name: Level II Support 
+We can now navigate to the "Teams" tab in the same "Agents" section. Then Add New Team -> Name: Level II Support 
 </p>
 <p>
 <img src=https://i.imgur.com/NO73ZwJ.png/>
@@ -137,7 +137,7 @@ We can now navigatre to the "Teams" tab in the same "Agents" section. Then Add N
 
 <h3>Step 4: Configure Agents(Employees)</h3>
 <p>
-The lastr section is the the "Agents" tab in the same "Agents" section as before. Then Add New Agent -> We can create two agents. One named Jane Doe and the other John Doe. Email address can be set to something like jane.doe@helper.com. Username: jane.doe -> Password: Password1. Keep in mind hese names are just placeholders. We can place them in the System Administrators Department, -> Role: Supreme Admin -> Permissions: All -> Team: Level II Support . Let's also extended access to the "Support" department. Repeat these steps for an agent named "John Doe". Make sure to make a record of their login info. 
+The last section is the the "Agents" tab in the same "Agents" section as before. Then Add New Agent -> We can create two agents. One named Jane Doe and the other John Doe. Email address can be set to something like jane.doe@helper.com. Username: jane.doe -> Password: Password1. Keep in mind these names are just placeholders. We can place them in the System Administrators Department, -> Role: Supreme Admin -> Permissions: All -> Team: Level II Support . Let's also extend access to the "Support" department. Repeat these steps for an agent named "John Doe". Make sure to make a record of their login info. 
 </p>
 <p>
 <img src=https://i.imgur.com/vHPJ9Pn.png/>
@@ -164,7 +164,7 @@ Now we will need to switch to the Agent Panel at the top right of the page. Then
 </p>
 <br/>
 
-<h3>Step 7: Configure Serveice Level Aggreements SLAs</h3>
+<h3>Step 7: Configure Service Level Agreements SLAs</h3>
 <p>
 Next we can switch back to the Admin Panel -> Manage -> SLA -> Add New SLA Plan. We will add a total of 3 SLA Plans:
 <ul>
@@ -207,7 +207,7 @@ We can now act both as the end user and the IT support agent to simulate resolvi
 <p>
 Use the following link to access the end user side of odTicket: http://localhost/osTicket/ -> Open a New Ticket. We will now create 3 tickets:
 </p>
-<h3>Business Crtical Outage</h3>
+<h3>Business Critical Outage</h3>
 <p>
 <img src=https://i.imgur.com/ywCGo0p.png/>
 </p>
@@ -241,17 +241,17 @@ Now we can return to the help desk login page and log in as one of our agents, J
 
 <h3>Step 3: Resolving Tickets</h3>
 <p>
-Each ticket will have a thread documenting each action taken on the ticket and all communication related to it. It is always good practice to send a short reply when you recieve a ticket to acknowledge you are working on the issue, especially if it is serious. 
+Each ticket will have a thread documenting each action taken on the ticket and all communication related to it. It is always good practice to send a short reply when you receive a ticket to acknowledge you are working on the issue, especially if it is serious. 
 </p>
 <p>
 <img src=https://i.imgur.com/51bq2Zl.png/>
 </p>
 <ul>
-  <li>Online Banking System is Down: Because the issue with online banking severly impacts the business, that would be our first priority. Still logged in as Jane Doe, we can select this SEV-A ticket and scroll down to post a reply. Once we have found a solution, we can post a reply describing what was done and mark the ticket as "Resolved"<img src=https://i.imgur.com/Bsir8XC.png/></li>
-  <li>Adobe Reader Broken in Accounting Department: This ticket was assigned to John Doe, so let's first log into his account, then we can follow the same steps to resolve this ticket. Although the issue itself does not directly impact business, it is affecting a high number of employees, the entire accounting department. So we set this to a SEV-B and need to get it resolved within 4 hours. In this case we may need to find a temporary solution to give us time to reolve the deeper issue. <img src=https://i.imgur.com/2P7uKrs.png/><img src=https://i.imgur.com/FNNFJWo.png/></li>
+  <li>Online Banking System is Down: Because the issue with online banking severely impacts the business, that would be our first priority. Still logged in as Jane Doe, we can select this SEV-A ticket and scroll down to post a reply. Once we have found a solution, we can post a reply describing what was done and mark the ticket as "Resolved"<img src=https://i.imgur.com/Bsir8XC.png/></li>
+  <li>Adobe Reader Broken in Accounting Department: This ticket was assigned to John Doe, so let's first log into his account, then we can follow the same steps to resolve this ticket. Although the issue itself does not directly impact business, it is affecting a high number of employees, the entire accounting department. So we set this to a SEV-B and need to get it resolved within 4 hours. In this case we may need to find a temporary solution to give us time to resolve the deeper issue.<img src=https://i.imgur.com/2P7uKrs.png/><img src=https://i.imgur.com/FNNFJWo.png/></li>
   <li>When are we Getting a Hardware Refresh?: In the case of someone looking for information, we can update them on the situation and usually mark the ticket as resolved right away. <img src=https://i.imgur.com/urCjzNx.png/></li>
   <li>If we log in using our admin account that has access to all departments, we should be able to see all of our completed tickets archived.<img src=https://i.imgur.com/CyTP9MM.png/></li>
-<br />
+<br/>
 
 <h1>Congratulations, Project Complete!</h1>
 <p>

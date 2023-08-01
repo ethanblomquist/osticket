@@ -223,10 +223,16 @@ Use the following link to access the end user side of odTicket: http://localhost
 
 <h3>Step 2: Triage and Assign Tickets</h3>
 <p>
-Now we can return to the help desk login page and log in as one of our agents, Jane Doe. Enter the login information we set earlier. We can now see the 3 tickets we made. We can adjust the priority, SLA and assign these tickets to our agents. For example, our ticket from Karen heavily impacts the business and customers, so we would assign a high priority and SEV-A SLA. Since the support team would most likely not independently deal with an issue of this severity, we can also trasnfer is to the System Administrator department.
+Now we can return to the help desk login page and log in as one of our agents, Jane Doe. Enter the login information we set earlier. We can now see the 3 tickets we made. We can adjust the priority, SLA and assign these tickets to our agents. For example, our ticket from Karen heavily impacts the business and customers, so we would assign a high priority and SEV-A SLA. Since the support team would most likely not independently deal with an issue of this severity, we can also transfer it to the System Administrator department.
 </p>
 <p>
 <img src=https://i.imgur.com/9gVu7AT.png/>
+</p>
+<p>
+<img src=https://i.imgur.com/L2mBqRw.png/>
+</p>
+<p>
+<img src=https://i.imgur.com/ELDOjam.png/>
 </p>
 <br/>
 

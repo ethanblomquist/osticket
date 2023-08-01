@@ -155,10 +155,10 @@ Now we will need to adjust a setting that controls who may create tickets. Navig
 
 <h3>Step 6: Configure Users(Customers)</h3>
 <p>
-Agent Panel -> Users -> Add New
+Now we will need to switch to the Agent Panel at the top right of the page. Then -> Users -> Add New. We will add two users, Ken Ken and Karen Karen. Emails can be set to ken@osticket.com and karen@osticket.com.
 </p>
 <p>
-<img src=/>
+<img src=https://i.imgur.com/hYpajDX.png/>
 </p>
 <br />
 
